@@ -1,4 +1,4 @@
-mod concurrent_wrapper;
+pub mod concurrent_wrapper;
 pub mod runner;
 pub mod wrapper;
 
