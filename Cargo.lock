@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "nbench"
+name = "quickbench"
 version = "0.1.0"
