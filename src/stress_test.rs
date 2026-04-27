@@ -17,7 +17,7 @@ where
         }
 
         for (k, v) in keys.iter().zip(values.iter()) {
-            assert_eq!(self.container.get(k), Some(v));
+            assert_eq!(self.container.get(k), Some(v).cloned());
         }
 
         for k in keys.iter() {
